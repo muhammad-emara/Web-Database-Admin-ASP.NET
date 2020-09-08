@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="false" CodeBehind="index.aspx.cs" Inherits="DbMgmAdmin.index" validateRequest="false" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="DbMgmAdmin.FileBrowser" %>
 
 <!DOCTYPE html>
 

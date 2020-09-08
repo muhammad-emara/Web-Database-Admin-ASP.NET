@@ -11,12 +11,13 @@ using System.Web.UI.WebControls;
 using System.Web.UI.HtmlControls;
 using System.Configuration;
 using System.Text.RegularExpressions;
+using DbMgmAdmin.classes;
 /********************************************************************
-	
-    Author :         (Muhammad Emara - muhammad.emara@hotmail.com)
-	created:	08/09/2020
-	file base:	Index.aspx
-	purpose:	Login/ default page
+
+Author :         (Muhammad Emara - muhammad.emara@hotmail.com)
+created:	08/09/2020
+file base:	Index.aspx
+purpose:	Login/ default page
 *********************************************************************/
 
 namespace DbMgmAdmin
@@ -24,7 +25,7 @@ namespace DbMgmAdmin
     /// <summary>
     /// Summary description for Template.
     /// </summary>
-    public class Index : System.Web.UI.Page
+    public partial class Index : System.Web.UI.Page
     {
         protected System.Web.UI.WebControls.Label EmailID;
         protected System.Web.UI.WebControls.Label Password;

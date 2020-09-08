@@ -7,6 +7,14 @@ using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
 
+using System;
+using System.Collections;
+using System.ComponentModel;
+using System.Web;
+using System.Web.SessionState;
+
+
+
 namespace DbMgmAdmin
 {
     public class Global : HttpApplication
@@ -17,5 +25,7 @@ namespace DbMgmAdmin
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+
+        
     }
 }

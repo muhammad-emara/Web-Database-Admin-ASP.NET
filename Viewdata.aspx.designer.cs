@@ -10,69 +10,69 @@
 namespace DbMgmAdmin {
     
     
-    public partial class FileBrowser {
+    public partial class Viewdata {
         
         /// <summary>
-        /// lblError control.
+        /// frmViewState control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblError;
+       // protected global::System.Web.UI.HtmlControls.HtmlForm frmViewState;
         
         /// <summary>
-        /// EmailID control.
+        /// Button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label EmailID;
+       // protected global::System.Web.UI.WebControls.Button Button1;
         
         /// <summary>
-        /// txtemail control.
+        /// lblstatus control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtemail;
+       // protected global::System.Web.UI.WebControls.Label lblstatus;
         
         /// <summary>
-        /// Password control.
+        /// Table2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Password;
+      //  protected global::System.Web.UI.WebControls.Table Table2;
         
         /// <summary>
-        /// txtpwd control.
+        /// btnBack control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtpwd;
+       // protected global::System.Web.UI.WebControls.Button btnBack;
         
         /// <summary>
-        /// Log control.
+        /// btnSubmit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Log;
+       // protected global::System.Web.UI.WebControls.Button btnSubmit;
         
         /// <summary>
-        /// btnLogin control.
+        /// Button2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLogin;
+       // protected global::System.Web.UI.WebControls.Button Button2;
     }
 }
